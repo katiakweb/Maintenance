@@ -1,11 +1,12 @@
 <?php
 
-namespace Lalit\Maintenance\Controller\Adminhtml\AdjustSettings;
+namespace Lalitmohan\Maintenance\Controller\Adminhtml\AdjustSettings;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
+use Magento\Backend\App\Action as Action;
 
-class Index extends \Magento\Backend\App\Action
+class Index extends Action
 {
 	
     /**

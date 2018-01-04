@@ -1,5 +1,5 @@
 {
-  "name": "lalit/maintenance",
+  "name": "lalitmohan/maintenance",
   "description": "Magento 2 custom maintenace page with own design.",
   "type": "magento2-module",
   "version": "100.0.0",
@@ -21,7 +21,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Lalit\\Maintenance\\": ""
+      "Lalitmohan\\Maintenance\\": ""
     }
   }
 

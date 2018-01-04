@@ -1,6 +1,6 @@
 <?php
  
-namespace Lalit\Maintenance\Block\Adminhtml\AdjustSettings;
+namespace Lalitmohan\Maintenance\Block\Adminhtml\AdjustSettings;
  
 use Magento\Backend\Block\Widget\Form\Container;
 use Magento\Backend\Block\Widget\Context;
