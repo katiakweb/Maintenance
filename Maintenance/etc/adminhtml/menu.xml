@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Lalit_Maintenance::maintenance" title="Maintenance Mode" module="Lalit_Maintenance" sortOrder="998" parent="Magento_Backend::stores" resource="Lalit_Maintenance::manage503"/>
+		<add id="Lalit_Maintenance::maintenance_rules" title="Adjust Settings" module="Lalit_Maintenance" sortOrder="10" parent="Lalit_Maintenance::maintenance" action="maintenance/adjustsettings" resource="Lalit_Maintenance::manage503"/>
+    </menu>
+</config>
